@@ -1,0 +1,99 @@
+body {
+    margin: 0%;
+    padding: 0%;
+}
+
+.container-fluid {
+    background-image: url(./Pictures/restayrant.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+ul li a {
+    color: white !important;
+}
+
+h1 {
+    color: white;
+    font-size: 4vh;
+}
+
+span {
+    color: red;
+}
+
+.pear {
+    background:purple;
+}
+
+.img {
+    display: flex;
+    justify-content: space-around;
+    overflow: scroll;
+    gap: 20px;
+}
+
+       .img::-webkit-scrollbar {
+    display: none;
+}
+
+.pol {
+    background-color: white;
+    width: 50vh;
+    height: 62vh;
+    margin-bottom: 10vh;
+    border-radius: 10px 10px 4px 4px;
+
+}
+
+.pol img {
+    width: 50vh;
+    border-radius: 10px 10px 0px 0px;
+    height: 40vh;
+}
+
+.div {
+    display: flex;
+    justify-content: space-around;
+
+}
+.lake{
+    background-color: black;
+    color: white;
+    padding-left: 10vh;
+    padding-bottom: 10vh;
+    margin-top: -10%;
+}
+h3{
+    text-align: center;
+}
+.lake a {
+    text-decoration: none;
+}
+@media screen and (max-width:750px) {
+    .img{
+        display: flex;
+        flex-direction: column;
+        margin: 20px;
+    }
+    .pt-2{
+        padding-top: 20px;
+    }
+    .pol {
+        background-color: white;
+        width: 50vh;
+        height: 62vh;
+        margin-bottom: 10vh;
+        border-radius: 10px 10px 4px 4px;
+    
+    }
+    .lake{
+    background-color: black;
+    color: white;
+    padding-left: 10vh;
+    padding-bottom: 10vh;
+    margin-top: -10%;
+}
+
+}
